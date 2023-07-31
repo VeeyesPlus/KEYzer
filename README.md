@@ -8,6 +8,7 @@ The KEYzer or Keyword Analyzer is a Python application that allows you to extrac
 2. Create a virtual environment (optional but recommended) to ensure a clean and isolated environment for running the application:
 
 python -m venv myenv   # Create a virtual environment named 'myenv'
+
 source myenv/bin/activate   # On Windows: myenv\Scripts\activate
 
 
