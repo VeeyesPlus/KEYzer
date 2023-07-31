@@ -10,13 +10,16 @@ The KEYzer or Keyword Analyzer is a Python application that allows you to extrac
 python -m venv myenv   # Create a virtual environment named 'myenv'
 source myenv/bin/activate   # On Windows: myenv\Scripts\activate
 
+
 3. Install the required dependencies from the requirements.txt file:
 
 pip install -r requirements.txt
 
+
 4. Download the spaCy model 'en_core_web_sm' using the following command:
 
 python -m spacy download en_core_web_sm
+
 
 ## Usage
 
