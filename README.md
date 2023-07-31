@@ -6,29 +6,28 @@ The KEYzer or Keyword Analyzer is a Python application that allows you to extrac
 1. Clone the repository or download the project files.
 
 2. Create a virtual environment (optional but recommended) to ensure a clean and isolated environment for running the application:
-
+   
+```
 python -m venv myenv   # Create a virtual environment named 'myenv'
-
 source myenv/bin/activate   # On Windows: myenv\Scripts\activate
-
+```
 
 3. Install the required dependencies from the requirements.txt file:
-
+```
 pip install -r requirements.txt
-
-
+```
 4. Download the spaCy model 'en_core_web_sm' using the following command:
-
+```
 python -m spacy download en_core_web_sm
-
-
+```
 ## Usage
 
-To run the Keyword Analyzer application, 
-1. Click on the KEYzer.exe file.
-2. Or, execute the kwgen_gui.py script:
+To run the Keyword Analyzer application, edit the "loader.py" to provide the location where the 'en_core_web_sm' model is installed under model path.
+Then, execute the kwgen_gui.py script using following command:
 
+```
 python kwgen_gui.py
+```
 
 ### The application will open a graphical user interface (GUI) with the following features:
 
@@ -49,12 +48,12 @@ In case of any errors related to the spaCy model, please check the model path de
 If you encounter any other problems or need assistance, feel free to open an issue in the project's repository.
 
 ## Credits
-The Keyword Analyzer application was created by Vineetha Padimiti and is distributed under the Apache 2.0 license. For more information, please refer to the [LICENSE] file.
+The Keyword Analyzer application was created by Vineetha Padimiti and is distributed under the Apache 2.0 license. For more information, please refer to the LICENSE file.
 
 ## Contributions
 Contributions to the project are welcome! If you would like to improve the application or add new features, please submit a pull request.
 
 ## License
-This project is licensed under the [Apache 2.0]. For more details, see the [LICENSE] file.
+This project is licensed under the [Apache 2.0]. For more details, see the LICENSE file.
 
 Happy keyword analysis!
