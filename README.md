@@ -40,6 +40,11 @@ Click the "Analyze Text from File" button to browse and select a text, PDF, DOC,
 ## Important Note
 The Keyword Analyzer application requires the 'en_core_web_sm' spaCy language model. Ensure that you have downloaded the model as mentioned in the Installation and Setup section.
 
+## Screenshots:
+![image](https://github.com/VeeyesPlus/KEYzer/assets/129393961/fdd7164a-f8f6-44f1-9166-74e1ca2ee66b)
+![image](https://github.com/VeeyesPlus/KEYzer/assets/129393961/f3807b50-535b-42c3-9dee-4feb3cc39b51)
+
+
 ## Troubleshooting
 If you encounter any issues while running the application, make sure you have followed the installation steps correctly and that all required dependencies are installed in the virtual environment.
 
